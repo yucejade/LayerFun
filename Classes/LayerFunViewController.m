@@ -48,7 +48,7 @@
     sublayer.frame = CGRectMake(30, 30, 128, 192);
     sublayer.borderColor = [UIColor blackColor].CGColor;
     sublayer.borderWidth = 2.0;
-    sublayer.cornerRadius = 10.0; 
+    sublayer.cornerRadius = 10.0;
     [self.view.layer addSublayer:sublayer];
 
     CALayer *imageLayer = [CALayer layer];
